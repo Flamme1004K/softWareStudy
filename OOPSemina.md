@@ -6,7 +6,7 @@
  
  1. 캡슐화(Encapsulation) --> Information Hiding : 정보를 은닉한다. 즉 인스턴스 변수들을 숨긴다는 뜻이다. (접근제어자를 붙이는 이유가 이것이다)
  2. 상속(Inheritation)
- 3. 다형성
+ 3. 다형성 : https://doublesprogramming.tistory.com/77
  
  이있다. 
  
