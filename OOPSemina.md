@@ -8,6 +8,8 @@
  2. 상속(Inheritation)
  3. 다형성 : https://doublesprogramming.tistory.com/77
  
+ https://velog.io/@hkoo9329/%EC%9E%90%EB%B0%94-extends-implements-%EC%B0%A8%EC%9D%B4
+ 
  이있다. 
  
  QA . SideImpact란 무엇인가? 
