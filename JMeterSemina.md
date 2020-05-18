@@ -44,9 +44,27 @@ KT DS 조정일 강사
  
  ### 성능테스트 용어 사용자
  
- - NamedUser(가입자)
- - Active User (서비스 사용자)
- - Inactive User (서비스 대기자)
+ - NamedUser(가입자) : 해당 시스템을 사용할 수 있는 전체 사용자
+ - Active User (서비스 사용자) : 해당 시점에 요청을 보낸 다음 응답이 올 때까지 대기하고 있는 사용자
+ - Inactive User (서비스 대기자) : 요청에 대한 응답결과 화면을 보고 있거나 다음 요청을 보내지 않고 대기하는 사용자 (접속한 사람)
+ - Concurrent User (동시 사용자) : 특정 시점에 시스템에 접속하여 사용하고 있는 사용자로 부하를 결정하는 중요한 수치
+ 
+ Current User = Active User + Inactive User
+ 
+ 
+ ### 성능테스트 용어 시간
+ 
+  - 응답시간(Response Time) : 사용자 요청시점부터 결과값 시간
+  - 대기시간(Think Time) : 사용자 요청 후 다음 요청하기까지 준비시간
+  - 호출간격(Request Interval) : 사용자의 요청을 보낸 후 다음 요청을 할때까지의 간격
+  
+  응답성이란 ? 
+  
+  http://cloudqos.or.kr/page/responsiveness
+ 
+ 
+ 
+ 
  
 
 
