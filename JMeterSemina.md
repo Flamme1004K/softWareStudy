@@ -139,7 +139,18 @@ KT DS 조정일 강사
   
   SNS/ 캡챠 인증은 성능테스트가 불가능하다.
   
-  시나리오 : 목표성능검증. 
-  임계처리성능도출,
-  시스템 안정성검증
+  ### Jmeter 실습.
+  
+  Jmeter 설치
+  
+  설치방법 : brew install jmeter (컴퓨터에 JDK가 설치되어있어야 한다.)
+  
+  실행 : open /usr/local/bin/jmeter 
+   
+  새로운 터미널 창이 열리면서 jmeter GUI가 열림.
+  
+  
+  
+ 
+  
   
