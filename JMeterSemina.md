@@ -222,22 +222,6 @@ KT DS 조정일 강사
   
  2. HTTP Request 작성
  
- ㅗ
- 2. HTTP Request 작ㅗㅅ
- 2. HTTP Request 
+ HTTP Requset 샘플러는 아래 입력된 정보를 이용하여 실체 요청을 하는 Sample임
 
-
-
-
-
-몬임ㄴㅇ
- 2. HTTP Request 작성
- 
- 
- ㅁㄴ음ㄴ;
- 2. HTTP Request 작성ㅇ
- 2. HTTP Request 작성
- ㄴ믕;
- 2. HTTP Request 작성민ㅇ
- 2. HTTP Request 작성
  
