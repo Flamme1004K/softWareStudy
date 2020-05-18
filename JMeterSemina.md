@@ -240,3 +240,6 @@ KT DS 조정일 강사
  - View Result Tree는 각 Sample에 대한 처리 정보, 요청 및 응답 데이터를 확인할 수 있음.
  
  6. Thread Group(설정)
+
+ - Thread Group는 동시사용자 수, 유입시간, 호출횟수(유지시간)을 지정할 수 있음.
+ 
