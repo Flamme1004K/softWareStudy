@@ -139,9 +139,52 @@ KT DS 조정일 강사
   
   SNS/ 캡챠 인증은 성능테스트가 불가능하다.
   
-  ### Jmeter 실습.
+  ## 성능테스트 도구
   
-  Jmeter 설치
+  실습 github 저장소
+  
+  https://github.com/bearscho/Academy/tree/master/TTA%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8/2020%EB%85%8405%EC%9B%94
+  
+  실습 : TPS계산 -> 분석형 데이터 -> Peak시간대 도출 -> 호출상위업무 도출 -> 워크로드 모델정의 -> 시나리오설계 -> 성능테스트 -> 대상업무 선정 -> 시나리오 설정 -> 결과정리 순으로 간다.
+  
+  - 성능테스트 툴
+  - Jmeter 설치
+  - Jmeter Plugins 설치
+  - 주요 모듈
+  - 툴 사용 
+  
+  
+  ### 성능테스트 툴
+  
+  HP LoadRunner로 대표되는 상용 툴과 Apache Jmeter로 대표되는 오픈소스 툴 등 다양한 종류의 성능테스트 툴 존재
+  
+  성능테스트 툴 선정 시 여러가지 사항을 고려하여 선정되어야 함.
+  
+   - 수행 인력의 경험 및 사용 가능한 툴
+   - 고객이 선호나는 툴 (RFP 등에 테스팅 툴 명시)
+   - 고객 시스템에 대한 라이선스의 가용(Sap, ERP, ActiveX 등)
+   - 프로토콜의 지원 (.Net, COM/DCOM, Socket 등)
+   - 도구의 효율성 (툴 작업 용이성, 유지보수 등)
+   - 라이선스 비용
+   - 밴더 지원(IBM, Borland, HP등)
+   
+  
+  
+  Apache JMeter 는 가장 대표적인 오픈소스 성능테스트 툴
+  
+   - 오픈소스 기반으로 무료로 사용 가능
+   - 100% Java 기반으로 쉬운 설치(압축파일 해제)
+   - 다양한 프로토콜 지원 (HTTP, Soap, JDBC, Ldap, JMS, TCP, Java Objects 등)
+   - Java 호환 OS(Linux, windows, Mac OSX) 지원
+   - Java 기반으로 테스트 영역 무한 확장 가능 (Custom Sampler 지원)
+   - 3rd party 연계한 Continuous Integration 지원(Maven,  Graddle and Jenkins 등)
+   - 테스트 자동화를 위한 Bean Shell & Selenium 등과의 통합 지원
+   
+   ``Jmeter를 주로 하는 회사는 없다. 거의 성능테스트는 성능테스트 회사에 맡긴다.``
+  
+  ### Jmeter 설치
+  
+  Mac ) 
   
   설치방법 : brew install jmeter (컴퓨터에 JDK가 설치되어있어야 한다.)
   
@@ -149,7 +192,16 @@ KT DS 조정일 강사
    
   새로운 터미널 창이 열리면서 jmeter GUI가 열림.
   
+  Window )
   
+  설치방법 : Jmeter 사이트에서 5.3버전 설치
+  
+  jmeter-plugins.org에서 라이브러리 설치하고 lib-ext 폴더에 넣어준다.
+  
+  Custom SOAP Sampler, 3 Basic Graphs, 5 Additional Graphs 설치
+  jmeter-plugins.org에서 라이브러리 설치하고 lib-ext 폴더에 넣어준다.
+  
+ 
   
  
   
