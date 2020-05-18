@@ -199,10 +199,45 @@ KT DS 조정일 강사
   jmeter-plugins.org에서 라이브러리 설치하고 lib-ext 폴더에 넣어준다.
   
   Custom SOAP Sampler, 3 Basic Graphs, 5 Additional Graphs 설치
-  jmeter-plugins.org에서 라이브러리 설치하고 lib-ext 폴더에 넣어준다.
-  
  
+  ## WebTesting Site :  www.blazemeter.com
   
+
+ ### 성능테스트 실습
  
+  - 기본 사용법
+  - 실전실습 (가상 쇼핑몰 Recording)
+  - Jmeter Advanced
+  - 프로젝트 실습
   
+  실습순서
+ 
+ 가장 많이 사용되는 Web (HTTP) 서비스에 대한 기본 Templates을 이용하여 구성 후 기본적인 사용방법을 습득
+ 
+ Templates 로드(Web Test Plan) -> HTTP Request(작성) -> Assertion(추가) -> Think Time(설정) -> View Result Tree(확인) -> Thread Group(설정)
+ 
+ 1. Template 로드
+ 
+ Template는 테스트 유형별로 기본적으로 사용되는 TestPlan 구조를 제공
   
+ 2. HTTP Request 작성
+ 
+ ㅗ
+ 2. HTTP Request 작ㅗㅅ
+ 2. HTTP Request 
+
+
+
+
+
+몬임ㄴㅇ
+ 2. HTTP Request 작성
+ 
+ 
+ ㅁㄴ음ㄴ;
+ 2. HTTP Request 작성ㅇ
+ 2. HTTP Request 작성
+ ㄴ믕;
+ 2. HTTP Request 작성민ㅇ
+ 2. HTTP Request 작성
+ 
