@@ -210,7 +210,7 @@ KT DS 조정일 강사
   - Jmeter Advanced
   - 프로젝트 실습
   
-  실습순서
+  ##실습순서
  
  가장 많이 사용되는 Web (HTTP) 서비스에 대한 기본 Templates을 이용하여 구성 후 기본적인 사용방법을 습득
  
@@ -218,10 +218,25 @@ KT DS 조정일 강사
  
  1. Template 로드
  
- Template는 테스트 유형별로 기본적으로 사용되는 TestPlan 구조를 제공
+ - Template는 테스트 유형별로 기본적으로 사용되는 TestPlan 구조를 제공
   
  2. HTTP Request 작성
  
- HTTP Requset 샘플러는 아래 입력된 정보를 이용하여 실체 요청을 하는 Sample임
-
+ - HTTP Requset 샘플러는 아래 입력된 정보를 이용하여 실체 요청을 하는 Sample임
  
+ - Config Element 중 HTTP Request Defaults가 추가되어 있고, 값이 지정되어 있을 경우 HTTP Request에 값이 지정되지 않았다면, HTTP Requset Defaults의 값이 적용됨.
+ 
+ 3. Assertion 추가
+ 
+ - Assertion은 요청에 대한 응답값에서 정상적으로 처리 되었는지를 판단하는 기능을 제공
+ - Junit4의 Assertion과 같다.
+ 
+ 4. ThinkTime 설정
+ 
+ - Think Time 은 업무 처리 간에 대기시간 적용하며, Flow Control Action을 이용
+ 
+ 5. View Result Tree(확인)
+ 
+ - View Result Tree는 각 Sample에 대한 처리 정보, 요청 및 응답 데이터를 확인할 수 있음.
+ 
+ 6. Thread Group(설정)
