@@ -210,7 +210,7 @@ KT DS 조정일 강사
   - Jmeter Advanced
   - 프로젝트 실습
   
-  ##실습순서
+  ##JMeter의 과정
  
  가장 많이 사용되는 Web (HTTP) 서비스에 대한 기본 Templates을 이용하여 구성 후 기본적인 사용방법을 습득
  
@@ -241,7 +241,48 @@ KT DS 조정일 강사
  
  6. Thread Group(설정)
 
- - Thread Group는 동시사용자 수, 유입시간, 호출횟수(유지시간)을 지정할 수 있음.
+ - Thread Group는 동시사용자 수, 유입시간, 호출횟수(유지시간)을 지정할 수 있음. 
+ - 테스트 중인 한명의 사용자를 나타내는 Thread의 집합. 전체 Thread 수, Ramp Up 시간, 수행 횟수 지정
+ - 기본 'Thread Group'이 있으나, 사용 편의를 위해 Plugin을 활용
+ 
+ ## JMeter 도구
+ 
+ - Elements 구조
+ 
+ 테스트 정보는 Element 들의 트리 구조 형태로 이루어짐
+ 
+ - Non-Test Elements(HTTP Test Script Recorder)
+ 
+ - Config Element(설정 해주는 것)
+ 
+ Config Element는 Sampler에서 사용할 수 있는 기본값 및 변수를 설정하는데 사용
+ 
+ CSV Data Set Config, HTTP Cache Manager, HTTP Cookie Mnanger, HTTP Header Manager, Random Variable을 많이 사용
+ 
+ - Logic Controller
+ 
+ 요청의 처리순서(조건분기, 반복, 임의 등) 적용시 사용
+ 
+ Once Only Controller, If Controoler, Transaction Controller, Recording Controller를 많이 사용
+ 
+ - Pre Processers / Post Processers
+ 
+ Sampler 처리 전/후의 작업을 지원
+ 
+ Regular Expression Extractor, Result Status Action Handler, Boundary Extractor(원하는 값을 뽑아냄)
+ 
+ - Timer
+ 
+ 요청 후 대기시간을 적용하는데 사용
+ 
+ Constant Timer, Uniform Random Timer를 
+ 
+ - Sampler
+ 
+ HTTP, FTP, JBC 및 여러 프로토콜 테스트를 지원
+ 
+ HTTP Request, Test Action, Debug Sampler를 
+ 
  
  
  ## 실습
