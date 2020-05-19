@@ -245,7 +245,7 @@ KT DS 조정일 강사
  - 테스트 중인 한명의 사용자를 나타내는 Thread의 집합. 전체 Thread 수, Ramp Up 시간, 수행 횟수 지정
  - 기본 'Thread Group'이 있으나, 사용 편의를 위해 Plugin을 활용
  
- ## JMeter 도구
+  ## JMeter 도구
  
  - Elements 구조
  
@@ -281,9 +281,19 @@ KT DS 조정일 강사
  
  HTTP, FTP, JBC 및 여러 프로토콜 테스트를 지원
  
- HTTP Request, Test Action, Debug Sampler를 
+ HTTP Request, Test Action, Debug Sampler를 사용
  
+ - Assertion
  
+ Sampler의 수신 응답에 대한 유효성을 검사하는데 사용
+ 
+ Response Assertion
+ 
+ - Listener
+ 
+ 테스트 실행 결과를 보여주며 트리, 테이블, 그래프 등으로 표시할 수 있음
+ 
+ View Results Tree, Summary Report 사용
  
  ## 실습
  
